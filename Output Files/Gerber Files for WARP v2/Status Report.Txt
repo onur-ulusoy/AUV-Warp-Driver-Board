@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [WARP.PcbDoc]
+   Generated File[WARP.TXT]
+   Generated File[WARP.LDP]
+   Generated File[WARP.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:49:12 On 13.08.2022

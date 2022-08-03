@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\onuru\OneDrive\Desktop\warp-design-version10\WARP.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Clearance|RuleName=Stitching 5V|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Stitching GND|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Stitching No Net|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
