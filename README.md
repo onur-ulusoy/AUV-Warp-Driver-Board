@@ -47,6 +47,9 @@ This repository focuses Warp's hardware design. For more details on the firmware
   - [Table of Contents](#table-of-contents)
   - [Board Description](#board-description)
   - [Electronics Design](#electronics-design)
+    - [Layer Structure](#layer-structure)
+    - [Primary Stage Protection](#primary-stage-protection)
+    - [Secondary Stage Protection](#secondary-stage-protection)
   - [Mechanical Architecture](#mechanical-architecture)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
@@ -75,8 +78,14 @@ The 4-layer structure, thus, adds significant robustness to the WARP Driver Boar
 
 For a more detailed examination of the board layers and the overall PCB structure, you can visit the file [WARP.PcbDoc](/WARP.PcbDoc).
 
+### Primary Stage Protection
+
+The design of the WARP Driver Board integrates a 100A fuse at the start of the power distribution chain, serving as the primary line of defense against overcurrent situations. Overcurrent conditions, potentially caused by short circuits, overloads, or device failures, can result in significant damage to the electronics. The fuse, meticulously calibrated to handle the high power requirements of the Autonomous Underwater Vehicle, disconnects the power supply in an overcurrent event, safeguarding all downstream circuitry and components. This strategic integration of protection measures ensures the AUV's reliability and longevity, even under challenging underwater conditions.
+
+<picture>   <img alt="fuse" src="Media/fuse.png"> </picture>
 
 
+<picture>   <img alt="fuse" src="Media/adcs.png"> </picture>
 
 ## Mechanical Architecture
 
