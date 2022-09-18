@@ -84,6 +84,16 @@ The design of the WARP Driver Board integrates a 100A fuse at the start of the p
 
 <picture>   <img alt="fuse" src="Media/fuse.png"> </picture>
 
+### Secondary Stage Protection
+
+In addition to the primary fuse protection, the WARP Driver Board also implements a secondary stage of protective measures through its comprehensive sensing system. Critical areas on the board are monitored using advanced instrumentation circuits paired with four Analog-to-Digital Converters (ADCs).
+
+These ADC circuits continuously monitor important parameters such as the ESC and battery voltages, currents, and ESC temperatures. This information provides a real-time overview of the board's operation and the health of its critical components.
+
+In the event that these monitored parameters deviate from their safe operating ranges - such as experiencing overcurrent, overheating, or abnormal voltage conditions - the microcontroller is immediately alerted. Based on the severity of the deviations, the microcontroller can take appropriate actions, including throttling back operations or, in extreme cases, halting operation entirely to prevent damage.
+
+This two-tiered approach to protection, encompassing both hardware (fuse) and software (microcontroller and sensing system) measures, enhances the safety and reliability of the WARP Driver Board. It ensures that the board can withstand a broad range of operational scenarios while minimizing the risk of component damage and system failure.
+
 
 <picture>   <img alt="fuse" src="Media/adcs.png"> </picture>
 
