@@ -50,6 +50,7 @@ This repository focuses Warp's hardware design. For more details on the firmware
     - [Layer Structure](#layer-structure)
     - [Primary Stage Protection](#primary-stage-protection)
     - [Secondary Stage Protection](#secondary-stage-protection)
+    - [Microcontroller](#microcontroller)
   - [Mechanical Architecture](#mechanical-architecture)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
@@ -65,6 +66,9 @@ The board is designed with safety and efficiency in mind. It includes a 100A fus
 
 
 ## Electronics Design
+
+<picture>   <img alt="fuse" src="Media/pcb-topview.gif"> </picture>
+
 
 ### Layer Structure
 
@@ -96,6 +100,20 @@ This two-tiered approach to protection, encompassing both hardware (fuse) and so
 
 
 <picture>   <img alt="fuse" src="Media/adcs.png"> </picture>
+
+### Microcontroller
+
+The WARP Driver Board's heart is an STM32 development board, strategically mounted on the top layer. It utilizes a powerful Cortex series STM32F401 microcontroller, supplying the processing power required for managing the complex tasks associated with an Autonomous Underwater Vehicle.
+
+The microcontroller's firmware is tailored specifically for the STM32F401, enhancing control over the hardware's functionality. It integrates the FreeRTOS, a real-time operating system, enabling efficient task scheduling and management. This feature ensures that critical operations like motor driving and power monitoring are handled both coherently and responsively, thereby boosting the system's overall reliability and performance.
+
+FreeRTOS prioritizes high-importance real-time tasks, such as motor control and power management, allowing them to be addressed immediately. Lower-priority tasks are also effectively managed without compromising system performance. The harmonious combination of this firmware and real-time operating system grants the WARP Driver Board the ability to execute its key tasks with the needed precision, efficiency, and reliability.
+
+For a deeper understanding and more detailed information and source code on the firmware, feel free to visit the [Warp Firmware Repository](https://github.com/onur-ulusoy/auv-warp-firmware).
+
+
+
+
 
 ## Mechanical Architecture
 
