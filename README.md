@@ -67,6 +67,9 @@ The board is designed with safety and efficiency in mind. It includes a 100A fus
 
 ## Electronics Design
 
+For a comprehensive understanding of the WARP Driver Board's intricate design and layout, you can always visit the [Schematic Sheets](/Schematic%20Sheets/). These detailed documents will provide you with valuable insights into the structure, connections, and functionalities of the board's various components.
+
+
 <picture>   <img alt="fuse" src="Media/pcb-topview.gif"> </picture>
 
 
@@ -111,9 +114,26 @@ FreeRTOS prioritizes high-importance real-time tasks, such as motor control and 
 
 For a deeper understanding and more detailed information and source code on the firmware, feel free to visit the [Warp Firmware Repository](https://github.com/onur-ulusoy/auv-warp-firmware).
 
+### Power Distribution
 
+The WARP Driver Board is equipped with various power converters and connectors, facilitating an array of power distribution options. This arrangement allows the board to cater to the different voltage requirements of the onboard peripherals, effectively supporting the diverse electronic needs of the AUV.
 
+<picture>   <img alt="fuse" src="Media/power.png"> </picture>
 
+### Connections and Monitoring
+The WARP Driver Board is equipped with multiple communication protocols, facilitating an efficient exchange of information within the system. It communicates with the main board using a UART interface, ensuring a seamless and reliable data exchange.
+
+Simultaneously, the board utilizes the I2C protocol for interfacing with the ADC circuits and the OLED display. The I2C communication allows for the real-time sensing and display of vital parameters like voltages, currents, and temperatures.
+
+Moreover, to control the thrusters, the board generates PWM signals, offering precise control over the AUV's propulsion system. This control mechanism is vital for the agile and responsive movements of the AUV in the challenging underwater environment.
+
+For direct on-board monitoring, the board supports an OLED mountable structure, providing real-time visual data of the system's key operational parameters. This feature, coupled with its capability to transmit critical data to the main board, ensures comprehensive system surveillance and robust control.
+
+The versatility and efficiency in communication, along with robust monitoring mechanisms, underline the WARP Driver Board's exceptional capabilities. These features, combined with an emphasis on safety and precise control, make it ideal for managing the complex requirements of an Autonomous Underwater Vehicle.
+
+<p align="center">
+    <img width="1500" src="Media/connections.png">
+</p>
 
 ## Mechanical Architecture
 
