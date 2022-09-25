@@ -51,6 +51,9 @@ This repository focuses Warp's hardware design. For more details on the firmware
     - [Primary Stage Protection](#primary-stage-protection)
     - [Secondary Stage Protection](#secondary-stage-protection)
     - [Microcontroller](#microcontroller)
+    - [Power Distribution](#power-distribution)
+    - [Connections and Monitoring](#connections-and-monitoring)
+    - [Cooling and ESC Integration](#cooling-and-esc-integration)
   - [Mechanical Architecture](#mechanical-architecture)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
@@ -134,6 +137,19 @@ The versatility and efficiency in communication, along with robust monitoring me
 <p align="center">
     <img width="1500" src="Media/connections.png">
 </p>
+
+
+### Cooling and ESC Integration
+The WARP Driver Board uniquely integrates the Electronic Speed Controllers (ESCs) and optimizes their cooling. The ESC mount area, created with numerous vias (holes) and positioned in the coolest region of the PCB, ensures effective heat dissipation, keeping the ESCs within safe operational temperatures even during high-intensity activities.
+
+Natural convection cooling is further enhanced during the AUV's navigation underwater, with the water flow around the ESC mount assisting in dispersing the heat. Moreover, this strategic placement allows easy access for maintenance, contributing to the system's overall reliability and lifespan.
+
+The ESCs connect to the board through MT30-M connectors, linking them to the AUV's thrusters. They utilize BlueRobotics ESCs, specifically designed for challenging underwater conditions. This efficient design maintains ESC performance while ensuring longevity, demonstrating the board's focus on performance, durability, and maintainability.
+
+Looking ahead, the design team is also considering the integration of a heat pipe for more advanced and efficient cooling. This future upgrade aims to further optimize the ESC's thermal management, ensuring peak performance even under heavy load conditions.
+
+<picture>   <img alt="fuse" src="Media/escs.gif"> </picture>
+
 
 ## Mechanical Architecture
 
