@@ -55,6 +55,7 @@ This repository focuses Warp's hardware design. For more details on the firmware
     - [Connections and Monitoring](#connections-and-monitoring)
     - [Cooling and ESC Integration](#cooling-and-esc-integration)
   - [Mechanical Architecture](#mechanical-architecture)
+  - [Manufacturing](#manufacturing)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
   - [LICENSE](#license)
@@ -187,6 +188,16 @@ The final products, the manufactured boards, are currently installed on our Auto
 
 
 ## Project Timeline
+This project is a proud contribution of the 2022 Electronics Team of the ITU AUV (Istanbul Technical University's Autonomous Underwater Vehicle) Team. Performed in the intervals Dec 2021 - Aug 2022.
+
+Süeda Korkmaz and Onur Ulusoy, members of the team, meticulously carried out the comprehensive design and production of PCBs and circuits using Altium Designer. Two distinct versions were manufactured with the cooperation of JLCPCB. The team also prepared and ordered all electronic components required, and undertook the detailed process of typesetting.
+
+The PCB has found its home at the ITU Bisiklet Evi, in the AUV section of the atelier, where it has been installed on the vehicle.
+
+We extend our gratitude towards our mindset consultant, Sencer Yazıcı, whose guidance has been instrumental throughout the process.
+
+Onur Ulusoy's diligent efforts are to be acknowledged in providing a visually cohesive and detailed representation of our project. His work encompassed the complete set of documentation, including preparing and improving 3D models, producing high-quality renders, and ensuring effective visualization of our design.
+
 
 ## LICENSE
 
