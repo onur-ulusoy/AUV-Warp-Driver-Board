@@ -41,7 +41,6 @@ This repository focuses Warp's hardware design. For more details on the firmware
 
 
 
-
 ## Table of Contents
 - [WARP Driver Board Hardware](#warp-driver-board-hardware)
   - [Table of Contents](#table-of-contents)
@@ -58,7 +57,8 @@ This repository focuses Warp's hardware design. For more details on the firmware
   - [Manufacturing](#manufacturing)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
-  - [LICENSE](#license)
+  - [License](#license)
+  - [Gallery](#gallery)
 
 ## Board Description
 
@@ -164,11 +164,11 @@ We've also implemented a custom solution for ESC placement. The ESCs are secured
 
 After all components are mounted, the stand is installed into the rear tube of the AUV. This process ensures the WARP Driver Board and its various components are well-protected and optimally positioned within the vehicle, demonstrating the seamless integration of mechanical and electronic design elements in the Autonomous Underwater Vehicle.
 
-<picture>   <img alt="fuse" src="Media/assembly-1.png"> </picture>
+<picture>   <img alt="assembly" src="Media/assembly-1.png"> </picture>
 
 <picture>   <img alt="dash" src="Media/logos/dash.png"> </picture>
 
-<picture>   <img alt="fuse" src="Media/assembly-2.png"> </picture>
+<picture>   <img alt="assembly" src="Media/assembly-2.png"> </picture>
 
 
 ## Manufacturing 
@@ -186,11 +186,18 @@ The final products, the manufactured boards, are currently installed on our Auto
 ## Technologies Used
 
 
+- **Altium Designer:** We utilized this advanced PCB design software to craft the complex four-layer design of the board. Altium Designer's intuitive interface and comprehensive features allowed us to design and validate the board's electronic components efficiently.
+
+- **STM Technologies:** Our system's microcontroller, the STM32 development board, comes from the STM technology suite. It forms the heart of our design, managing the sophisticated tasks within the AUV.
+
+- **Fusion 360:** For the mechanical design and rendering of the WARP Driver Board, we used Autodesk Fusion 360. This powerful CAD/CAM tool allowed us to visualize and perfect the physical design and ensure its compatibility within the AUV. It also provides us to integrate with mechanics team.
+
+- **Simulation Programs:** To validate and optimize our design, we made extensive use of electronic simulation programs such as Falstad and LTSpice. These tools enabled us to simulate the performance of our electronic circuits under various conditions, allowing us to refine and perfect the design before moving to manufacturing.
 
 ## Project Timeline
 This project is a proud contribution of the 2022 Electronics Team of the ITU AUV (Istanbul Technical University's Autonomous Underwater Vehicle) Team. Performed in the intervals Dec 2021 - Aug 2022.
 
-Süeda Korkmaz and Onur Ulusoy, members of the team, meticulously carried out the comprehensive design and production of PCBs and circuits using Altium Designer. Two distinct versions were manufactured with the cooperation of JLCPCB. The team also prepared and ordered all electronic components required, and undertook the detailed process of typesetting.
+Süeda Korkmaz and Onur Ulusoy, members of the team, meticulously carried out the comprehensive design and production of PCBs and circuits using Altium Designer. Two distinct versions were manufactured with the cooperation of JLCPCB. You can visit [here](/Docs/Older%20Versions%20PCB%20Views/) for the pictures of older versions of PCB. The team also prepared and ordered all electronic components required, and undertook the detailed process of typesetting.
 
 The PCB has found its home at the ITU Bisiklet Evi, in the AUV section of the atelier, where it has been installed on the vehicle.
 
@@ -199,6 +206,12 @@ We extend our gratitude towards our mindset consultant, Sencer Yazıcı, whose g
 Onur Ulusoy's diligent efforts are to be acknowledged in providing a visually cohesive and detailed representation of our project. His work encompassed the complete set of documentation, including preparing and improving 3D models, producing high-quality renders, and ensuring effective visualization of our design.
 
 
-## LICENSE
+## License
 
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Gallery
+
+For a visual tour of the WARP Driver Board, you can explore our [gallery](https://onur-ulusoy.github.io/auv-warp-driver-board/Media/gallery.html). Here you'll find detailed images showcasing the design and implementation of the board.
