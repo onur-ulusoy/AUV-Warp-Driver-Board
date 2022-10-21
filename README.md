@@ -210,7 +210,16 @@ Onur Ulusoy's diligent efforts are to be acknowledged in providing a visually co
 
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This repository contains the design and documentation for the AUV WARP Driver Board, a project by the ITU AUV Team Electonics 2022.
+
+
+**Licensor:** ITU AUV Team 2022 Electronics
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You can view the full terms of the license in the [LICENSE](./LICENSE) file in this repository.
+
+**Please note:** When using this project, you must give appropriate credit, including a link to the original GitHub repository: [https://github.com/onur-ulusoy/auv-warp-driver-board](https://github.com/onur-ulusoy/auv-warp-driver-board)
+
 
 ## Gallery
 
