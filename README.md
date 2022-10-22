@@ -173,7 +173,7 @@ After all components are mounted, the stand is installed into the rear tube of t
 
 ## Manufacturing 
 
-The WARP Driver Board was designed with meticulous attention to manufacturing requirements and industry standards. We utilized the Design Rule Check (DRC) feature of Altium Designer to ensure our design adhered to the specific manufacturing specifications of our chosen PCB manufacturer, JLC PCB. You can view the details of this rule check [here](https://onur-ulusoy.github.io/auv-warp-driver-board/Output%20Files/Design%20Rule%20Check%20-%20WARP.html).
+The WARP Driver Board was designed with meticulous attention to manufacturing requirements and industry standards. We utilized the Design Rule Check (DRC) feature of Altium Designer to ensure our design adhered to the specific manufacturing specifications of our chosen PCB manufacturer, JLC PCB. You can view the details of this rule check [here](https://onur-ulusoy.github.io/AUV-Warp-Driver-Board/Output%20Files/Design%20Rule%20Check%20-%20WARP.html).
 
 All necessary Gerber files, which provide the detailed manufacturing information required to translate our design into a physical board, are available in the [Output](/Output%20Files/) directory. 
 
@@ -218,9 +218,9 @@ This repository contains the design and documentation for the AUV WARP Driver Bo
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You can view the full terms of the license in the [LICENSE](./LICENSE) file in this repository.
 
-**Please note:** When using this project, you must give appropriate credit, including a link to the original GitHub repository: [https://github.com/onur-ulusoy/auv-warp-driver-board](https://github.com/onur-ulusoy/auv-warp-driver-board)
+**Please note:** When using this project, you must give appropriate credit, including a link to the original GitHub repository: [https://github.com/onur-ulusoy/AUV-Warp-Driver-Board](https://github.com/onur-ulusoy/Auv-Warp-Driver-Board)
 
 
 ## Gallery
 
-For a visual tour of the WARP Driver Board, you can explore our [gallery](https://onur-ulusoy.github.io/auv-warp-driver-board/Media/gallery.html). Here you'll find detailed images showcasing the design and implementation of the board.
+For a visual tour of the WARP Driver Board, you can explore our [gallery](https://onur-ulusoy.github.io/AUV-Warp-Driver-Board/Media/gallery.html). Here you'll find detailed images showcasing the design and implementation of the board.
