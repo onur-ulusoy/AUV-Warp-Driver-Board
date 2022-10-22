@@ -2,7 +2,7 @@
 
 WARP is the dedicated motor driver and power distribution board that powers our Autonomous Underwater Vehicle (AUV). This advanced board translates high-level navigation commands into precise motor controls, while simultaneously organizes an efficient and safe power distribution network. Its built-in monitoring system and safety features provide robust defenses against potential electrical failures, ensuring the AUV can withstand the challenging underwater environment.
 
-<picture>   <img alt="warp" src="Media/Pictures/warp v23.png"> </picture>
+<picture>   <img alt="warp" src="Media/pictures/warp v23.png"> </picture>
 
 
 This repository focuses Warp's hardware design. For more details on the firmware, visit the [Warp Firmware Repository](https://github.com/onur-ulusoy/auv-warp-firmware).
@@ -74,7 +74,7 @@ The board is designed with safety and efficiency in mind. It includes a 100A fus
 For a comprehensive understanding of the WARP Driver Board's intricate design and layout, you can always visit the [Schematic Sheets](/Schematic%20Sheets/). These detailed documents will provide you with valuable insights into the structure, connections, and functionalities of the board's various components.
 
 
-<picture>   <img alt="fuse" src="Media/Pictures/pcb-topview.gif"> </picture>
+<picture>   <img alt="fuse" src="Media/pictures/pcb-topview.gif"> </picture>
 
 
 ### Layer Structure
@@ -93,7 +93,7 @@ For a more detailed examination of the board layers and the overall PCB structur
 
 The design of the WARP Driver Board integrates a 100A fuse at the start of the power distribution chain, serving as the primary line of defense against overcurrent situations. Overcurrent conditions, potentially caused by short circuits, overloads, or device failures, can result in significant damage to the electronics. The fuse, meticulously calibrated to handle the high power requirements of the Autonomous Underwater Vehicle, disconnects the power supply in an overcurrent event, safeguarding all downstream circuitry and components. This strategic integration of protection measures ensures the AUV's reliability and longevity, even under challenging underwater conditions.
 
-<picture>   <img alt="fuse" src="Media/Pictures/fuse.png"> </picture>
+<picture>   <img alt="fuse" src="Media/pictures/fuse.png"> </picture>
 
 ### Secondary Stage Protection
 
@@ -106,7 +106,7 @@ In the event that these monitored parameters deviate from their safe operating r
 This two-tiered approach to protection, encompassing both hardware (fuse) and software (microcontroller and sensing system) measures, enhances the safety and reliability of the WARP Driver Board. It ensures that the board can withstand a broad range of operational scenarios while minimizing the risk of component damage and system failure.
 
 
-<picture>   <img alt="fuse" src="Media/Pictures/adcs.png"> </picture>
+<picture>   <img alt="fuse" src="Media/pictures/adcs.png"> </picture>
 
 ### Microcontroller
 
@@ -122,7 +122,7 @@ For a deeper understanding and more detailed information and source code on the 
 
 The WARP Driver Board is equipped with various power converters and connectors, facilitating an array of power distribution options. This arrangement allows the board to cater to the different voltage requirements of the onboard peripherals, effectively supporting the diverse electronic needs of the AUV.
 
-<picture>   <img alt="fuse" src="Media/Pictures/power.png"> </picture>
+<picture>   <img alt="fuse" src="Media/pictures/power.png"> </picture>
 
 ### Connections and Monitoring
 The WARP Driver Board is equipped with multiple communication protocols, facilitating an efficient exchange of information within the system. It communicates with the main board using a UART interface, ensuring a seamless and reliable data exchange.
@@ -136,7 +136,7 @@ For direct on-board monitoring, the board supports an OLED mountable structure, 
 The versatility and efficiency in communication, along with robust monitoring mechanisms, underline the WARP Driver Board's exceptional capabilities. These features, combined with an emphasis on safety and precise control, make it ideal for managing the complex requirements of an Autonomous Underwater Vehicle.
 
 <p align="center">
-    <img width="1500" src="Media/Pictures/connections.png">
+    <img width="1500" src="Media/pictures/connections.png">
 </p>
 
 
@@ -149,7 +149,7 @@ The ESCs connect to the board through MT30-M connectors, linking them to the AUV
 
 Looking ahead, the design team is also considering the integration of a heat pipe for more advanced and efficient cooling. This future upgrade aims to further optimize the ESC's thermal management, ensuring peak performance even under heavy load conditions.
 
-<picture>   <img alt="fuse" src="Media/Pictures/escs.gif"> </picture>
+<picture>   <img alt="fuse" src="Media/pictures/escs.gif"> </picture>
 
 
 ## Mechanical Architecture
@@ -164,11 +164,11 @@ We've also implemented a custom solution for ESC placement. The ESCs are secured
 
 After all components are mounted, the stand is installed into the rear tube of the AUV. This process ensures the WARP Driver Board and its various components are well-protected and optimally positioned within the vehicle, demonstrating the seamless integration of mechanical and electronic design elements in the Autonomous Underwater Vehicle.
 
-<picture>   <img alt="assembly" src="Media/Pictures/assembly-1.png"> </picture>
+<picture>   <img alt="assembly" src="Media/pictures/assembly-1.png"> </picture>
 
 <picture>   <img alt="dash" src="Media/logos/dash.png"> </picture>
 
-<picture>   <img alt="assembly" src="Media/Pictures/assembly-2.png"> </picture>
+<picture>   <img alt="assembly" src="Media/pictures/assembly-2.png"> </picture>
 
 
 ## Manufacturing 
